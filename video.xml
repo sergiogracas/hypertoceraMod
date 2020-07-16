@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Créditos deixados no readme.txt e/ou no readme.md
+-->
+<theme>
+<formatVersion>4</formatVersion>
+<view name="system">
+
+     <image name="background2" extra="true">
+     <!--<tile>true</tile>-->
+     <size>1 1</size>
+     <pos>0 0</pos>
+     <origin>0 0</origin>
+     <path>./art/filtre.jpg</path>
+     </image>
+  
+     <video name="backgroundvideo" extra="true">
+     <path>{random}</path>                 
+     <pos>0.222 0.277</pos>
+     <origin>0.5 0.5</origin>
+     <minSize>0.30 0.40</minSize>
+     <delay>0</delay>
+     <default>./art/static.mp4</default>
+     <showSnapshotNoVideo>false</showSnapshotNoVideo>
+     <showSnapshotDelay>false</showSnapshotDelay>
+     <color>FFFFFFA0</color>
+     <zIndex>20</zIndex>      
+     </video>
+
+</view>
+</theme>
